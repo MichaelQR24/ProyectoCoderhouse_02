@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/estilos.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body id="Body_De_contacto">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../inicio.html">Inicio</a></li>
+                <li><a href="formacion.html">Formacion</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="pagina_contacto">
+            <div id="pagina_contacto_titulo"><p>Contacto</p></div>
+            <div>
+                <p id="pagina_contacto_titulo_parrafo">Póngase en contacto conmigo a través del siguiente formulario o directamente a 
+                    <a href="mailto:michaelquerevalu@hotmail.com">michaelquerevalu@hotmail.com</a></p>
+            </div>
+            <div id="pagina_contenedor_contacto">   
+                <form id="formularioContacto" action="*" method="post">
+                    <div class="campo-formulario">
+                        <label for="correoElectronico">Correo electrónico:</label>
+                        <input type="email" id="correoElectronico" name="correoElectronico" required>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+                    </div>
+                    <div class="campo-formulario">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Desarrollado por Michael Querevalu Ramos | 2024</h3>
+    </footer>
+</body>
+</html>
